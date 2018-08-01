@@ -44,10 +44,6 @@ Last, load the image that you just downloaded and spin up an VM. Changes to stor
 
 In the VM, open firefox browser and go to NVIDIA's official [website](https://developer.nvidia.com/embedded/jetpack) and join them as a member so that you can download the JetPack.
 
-In my case, I downloaded JetPack 3.1 (includes TensorRT2.1, cuDNN 6.0, VisionWorks 1.6, CUDA 8.0, Multimedia API, L4T, Development tools).
-
-You are expected to find a file called `JetPack-L4T-3.1-linux-x64.run` under `Downloads` folder.
-
 #### 1.4 Install JetPack
 
 Open a terminal and navigate to Downloads folder, then change .run file as executable:
@@ -64,6 +60,10 @@ Then, run the .run file:
 ./JetPack-L4T-3.1-linux-x64.run
 
 ```
+
+Choose appropriate install paths when prompted.
+Selected TX2 when presented with multiple boards.
+Install everything in the Components Manager when presented. Enter password to allow the installation if prompted.
 
 Then just follow all the steps (basically from 2 to 12 without 9 in [here](http://docs.nvidia.com/jetpack-l4t/2_1/content/developertools/mobile/jetpack/jetpack_l4t/2.0/jetpack_l4t_install.htm)): choose TX2, L4T 3.1, full-install, then it will take a while to downloads all the dependencies and then a window will pop up to ask you to confirm the installation.
 
