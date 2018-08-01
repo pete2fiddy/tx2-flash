@@ -20,17 +20,15 @@ Therefore, this is all about how to flash into TX2 with an VM (VirtualBox) on Ma
 
 #### 1.1 Install Virtual Box
 
-Download Virtual Box for Mac from [here](http://download.virtualbox.org/virtualbox/5.1.28/VirtualBox-5.1.28-117968-OSX.dmg) and install it first; 
+Download Virtual Box from [here](https://www.virtualbox.org/wiki/Downloads) and install it first; 
 
-Then download Virtual Box extension [here](http://download.virtualbox.org/virtualbox/5.1.28/Oracle_VM_VirtualBox_Extension_Pack-5.1.28-117968.vbox-extpack) and install it;
+Then download Virtual Box extension [here](https://www.virtualbox.org/wiki/Downloads) and install it;
 
 Extension is needed to enable USB-2/USB-3 connection/communications between any physical USB device and the virtual machine.
 
 #### 1.2 Spin up an Ubuntu VM
 
-Download Ubuntu 14.04 iso image from [here](http://releases.ubuntu.com/14.04/ubuntu-14.04.5-desktop-amd64.iso).
-
-(Ubuntu 16.04 may also work, even I haven't tried it on my own. But here's a [proof](https://devtalk.nvidia.com/default/topic/1002081/jetson-tx2/jetpack-3-0-install-with-a-vm/post/5210987/#5210987) that Ubuntu 16.04 should also work.)
+Download Ubuntu 16.04 iso image from [here](http://releases.ubuntu.com/xenial/).
 
 Then, create an ubuntu machine with following settings:
 
@@ -40,7 +38,7 @@ Then, create an ubuntu machine with following settings:
 
 - [X] Go to Settings --> Ports --> USB, ensure `Enable USB Controller` is under `USB 3.0 (xHCI) Controller`
 
-Last, load the image that you just downloaded and spin up an VM.
+Last, load the image that you just downloaded and spin up an VM. Changes to storage in the VM won't affect actual OS storage, so allow the overwriting of data when prompted during install.
 
 #### 1.3 Download NVIDIA JetPack
 
