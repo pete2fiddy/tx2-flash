@@ -61,9 +61,10 @@ Then, run the .run file:
 
 ```
 
-Choose appropriate install paths when prompted.
+Choose appropriate install paths when prompted. (Note: on an initial install, I changed the paths from the ones there by default -- into the downloads folder. This worked fine. Made a mistake when first installing that required me to reinstall, but would throw an error if I specified a path other than the ones there by default, unlike before. May have to install to default paths if installer is throwing errors).
 Selected TX2 when presented with multiple boards.
-Install everything in the Components Manager when presented. Enter password to allow the installation if prompted.
+Install everything in the Components Manager when presented. Enter password to allow the installation if prompted. Installation will likely take a long time.
+When prompted with a window "Depending on the component selection, please pay attention to the prompt in the embedded terminal," select OK
 
 Then just follow all the steps (basically from 2 to 12 without 9 in [here](http://docs.nvidia.com/jetpack-l4t/2_1/content/developertools/mobile/jetpack/jetpack_l4t/2.0/jetpack_l4t_install.htm)): choose TX2, L4T 3.1, full-install, then it will take a while to downloads all the dependencies and then a window will pop up to ask you to confirm the installation.
 
