@@ -74,21 +74,17 @@ And when download/installation on host machine is finished, you just click all t
 
 
 And now, here's the tricky part:
+- [X] BEFORE following instructions printed on screen,  open settings of your VM, and go to Settings --> Ports --> USB, and click the usb icon that, when hovered over, reads: 'Add new USB filters with all .....', then add 'NVIDIA Corp. APX'
 
 - [X] Plug in the USB with a USB hub, then connect a mouse, keyboard to TX2
 
 - [X] Connect via HDMI (HDMI-HDMI, no VGA adapters ok?) between TX2 and monitor so that you can see what's going on
 
-- [X] Follow the descriptions, to power off TX2, connect to host-machine, power on, press ..... (just follow what they said), but just hold on Press Enter on host machine 
-
-- [X] Before you Press Ener on host machine's terminal, open settings of your VM, and go to Settings --> Ports --> USB, and click `Add new USB filters with all ..... (blahblahblah)`, then add `NVIDIA Corp. APX`
-
-- [X] Then, go to VM, click bottom right corner the button with shape an USB (pbbly forth one), and select `NVIDIA Corp. APX`, (it would be great to unplug any other USB devices from your Mac)
+- [X] Follow the instructions printed to the terminal. Ensure you are using the same micro USB cord that comes with the TX2 (other cords should work fine, but when I ran into trouble, some suggested a similar cable that fits in the micro USB port but doesn't work may the issue (perhaps it only has power and ground lines for charging and no data transfer lines))
 
 - [X] Last, go back to your VM, do `Press Enter` on the terminal
 
-And, go and grab a coffee, it will take around 30 min to complete the entire process.
-
+Flashing will take around 30 minutes.
 
 #### 1.5 Validation Flash
 
