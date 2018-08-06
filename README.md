@@ -98,9 +98,11 @@ nvcc -V
 
 ls /usr/local | grep cuda
 
-# Run example
+# Run a sample program. For example:
 
-# You can find this easily online, just google it.
+cd
+cd ~/NVIDIA_CUDA-(*your cuda version found by grep cuda*)_Samples/bin/aarch64/linux/release
+./oceanFFT
 ```
 
-Ta Da!
+The command prompt window that prints debug information while flashing APPEARED to freeze at step [2021.1104]. Did not appear to be doing anything after a few hours, so closed the command prompt window and selected to finish the flash (did not delete the installed files in case I needed to flash again). The above tests work correctly on the TX2 so I assume it flashed without issue, but this may be the cause of troubles you have down the line, if any.
