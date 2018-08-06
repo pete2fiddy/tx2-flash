@@ -24,7 +24,7 @@ Download Virtual Box from [here](https://www.virtualbox.org/wiki/Downloads) and 
 
 Then download Virtual Box extension [here](https://www.virtualbox.org/wiki/Downloads) and install it;
 
-Extension is needed to enable USB-2/USB-3 connection/communications between any physical USB device and the virtual machine.
+Extension is needed to enable USB-2 connection/communications between any physical USB device and the virtual machine.
 
 #### 1.2 Spin up an Ubuntu VM
 
@@ -36,7 +36,7 @@ Then, create an ubuntu machine with following settings:
 
 - [X] Go to Settings --> Network --> Adapter 1, change `Attached to` to `Bridged Adapter`, and name to whatever under Wi-Fi
 
-- [X] Go to Settings --> Ports --> USB, ensure `Enable USB Controller` is under `USB 3.0 (xHCI) Controller`
+- [X] Go to Settings --> Ports --> USB, ensure `Enable USB Controller` is under `USB 2.0 (EHCI) Controller` (Enabling USB3 seems to often cause problems when flashing from a VM)
 
 Last, load the image that you just downloaded and spin up an VM. Changes to storage in the VM won't affect actual OS storage, so allow the overwriting of data when prompted during install.
 
