@@ -76,6 +76,8 @@ And when download/installation on host machine is finished, you just click all t
 And now, here's the tricky part:
 - [X] BEFORE following instructions printed on screen,  open settings of your VM, and go to Settings --> Ports --> USB, and click the usb icon that, when hovered over, reads: 'Add new USB filters with all .....', then add 'NVIDIA Corp. APX'
 
+- [X] Unplug the drive from the TX2, if any (flashed with drive installed, and had issues with the flash. Somehow had Antonio's account despite the flash -- Amon assumes this is because the TX2 has onboard storage, which the OS should be installed to, but it installs to the drive if plugged in.) (REMOVE THESE LINES IF WAS NOT THE ISSUE)
+
 - [X] Plug in the USB with a USB hub, then connect a mouse, keyboard to TX2
 
 - [X] Connect via HDMI (HDMI-HDMI, no VGA adapters ok?) between TX2 and monitor so that you can see what's going on
